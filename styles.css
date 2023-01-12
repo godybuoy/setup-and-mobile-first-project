@@ -40,17 +40,18 @@ body {
 .navigation .nav {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
 }
 
 .navigation img {
   width: 16px;
-  background: blue;
-  padding: 2px;
+  background: rgb(5, 5, 250);
+  padding: 1.5px;
+  
 }
 
 .logo {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
@@ -74,11 +75,13 @@ body {
 }
 
 .container h1 {
-  font-weight: 700;
+  font-weight: 750;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   padding-right: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
 }
 
 .container p {
