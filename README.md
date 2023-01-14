@@ -7,7 +7,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>portfolio-setup</b></h3>
+  <h3><b>portfolio-mobile</b></h3>
 
 </div>
 
@@ -126,4 +126,8 @@ If you like this project kindly show your love by liking it.
 I would like to thank my friends and family.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
 
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
