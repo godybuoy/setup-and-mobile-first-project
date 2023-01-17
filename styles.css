@@ -301,3 +301,102 @@ hr {
   opacity: 0.5px;
   margin: 12px 0;
 }
+.contact_footer img {
+  position: absolute;
+  width: 265px;
+  height: 709.17px;
+  left: 110px;
+  top: 35px;
+}
+
+.contact {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0;
+  top: 4479px;
+  background: #6070ff;
+  border-radius: 75px 0 0 1px;
+}
+
+.contact_footer p {
+  position: absolute;
+  width: 327px;
+  height: 102px;
+  left: 16px;
+  top: 200px;
+  font-family: poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact_footer h1 {
+  position: absolute;
+  width: 801px;
+  height: 56px;
+  left: 70px;
+  top: 120px;
+  font-family: poppins, "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.contact_footer .form-start .name {
+  position: absolute;
+  bottom: 6.86%;
+  width: 327px;
+  height: 48px;
+  top: 376px;
+  left: 24px;
+  border-radius: 5px;
+  border-width: 0;
+  padding-left: 16px;
+}
+
+.contact_footer .form-start .email {
+  position: absolute;
+  bottom: 6.86%;
+  width: 327px;
+  height: 48px;
+  top: 443px;
+  left: 24px;
+  border-radius: 5px;
+  border-width: 0;
+  padding-left: 16px;
+}
+
+.contact_footer .form-start .message {
+  position: absolute;
+  bottom: 6.86%;
+  width: 327px;
+  height: 137px;
+  top: 510px;
+  left: 24px;
+  border-radius: 5px;
+  border-width: 0;
+  padding-top: 5px;
+  padding-left: 16px;
+}
+
+.contact_footer .form-start .start {
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  top: 670px;
+  background: #fff;
+  border-radius: 8px;
+  border-width: 0;
+  color: #6070ff;
+}
+
