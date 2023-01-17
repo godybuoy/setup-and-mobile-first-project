@@ -32,16 +32,17 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 hello microverse <a name="about-project"></a>
+# 📖 finish mobile version <a name="about-project"></a>
 
 
 
-**hello microverse** is an introductory project.
+**mobile first** is an introductory project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -127,3 +128,9 @@ I would like to thank my friends and family.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+
+This project is [MIT](./LICENSE) licensed.
