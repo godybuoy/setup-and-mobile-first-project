@@ -301,6 +301,7 @@ hr {
   opacity: 0.5px;
   margin: 12px 0;
 }
+
 .contact_footer img {
   position: absolute;
   width: 265px;
@@ -356,7 +357,7 @@ hr {
   bottom: 6.86%;
   width: 327px;
   height: 48px;
-  top: 376px;
+  top: 375px;
   left: 24px;
   border-radius: 5px;
   border-width: 0;
@@ -399,4 +400,3 @@ hr {
   border-width: 0;
   color: #6070ff;
 }
-
