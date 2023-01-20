@@ -27,7 +27,6 @@ body {
   background: #f7f7f9;
   height: 4631px;
   margin: auto;
-  
 }
 
 section {
@@ -408,10 +407,10 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
- .mobile-img {
-  display: none;
- }
-  
+  .mobile-img {
+    display: none;
+  }
+
   .body {
     height: 100vh;
   }
@@ -491,13 +490,15 @@ hr {
   .about_language {
     width: 48%;
   }
+
   .about_lang {
-   display:flex;
+    display: flex;
     flex-direction: row;
     min-width: 400px;
     gap: 10px;
     text-align: center;
   }
+
   .about_lang > li {
     gap: 12px;
     background: #f7f7f9;
@@ -508,6 +509,7 @@ hr {
     width: 20%;
     margin-bottom: 50px;
   }
+
   .item {
     margin: auto;
     display: flex;
@@ -517,12 +519,10 @@ hr {
     margin-left: 1px;
     justify-content: space-between;
     padding-bottom: 12px;
-
   }
-  
+
   .contact_footer h1 {
     margin-left: 420px;
-    
   }
 
   .contact {
@@ -532,6 +532,10 @@ hr {
     top: 3800px;
     position: absolute;
     margin: 0 auto;
+    background-image: url("./image/contact\ form\ background\ shapes@2x.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    position: absolute;
   }
 
   .contact_footer {
@@ -545,13 +549,6 @@ hr {
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
-
-  .contact {
-      background-image: url("./image/contact\ form\ background\ shapes@2x.svg");
-      background-repeat: no-repeat;
-      background-position: 100% 100%;
-      position: absolute;
   }
 
   .contact_footer p {
@@ -580,4 +577,3 @@ hr {
     top: 670px;
   }
 }
-
