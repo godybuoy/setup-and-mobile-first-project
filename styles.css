@@ -471,12 +471,6 @@ hr {
   #pic4 {
     flex-direction: row-reverse;
   }
-
-  .work_description {
-    float: left;
-    width: 48%;
-  }
-
   .about {
     display: flex;
     flex-direction: row;
@@ -484,7 +478,8 @@ hr {
   }
 
   .about_head {
-    width: 48%;
+    width: 50%;
+    margin-bottom: 3px;
   }
 
   .about_language {
@@ -530,7 +525,7 @@ hr {
     align-items: center;
     margin: 0 auto;
     width: 100%;
-    top: 4800px;
+    top: 4100px;
     position: absolute;
     background-image: url("./image/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
