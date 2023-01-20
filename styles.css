@@ -528,14 +528,13 @@ hr {
   .contact {
     display: flex;
     align-items: center;
+    margin: 0 auto;
     width: 100%;
     top: 3800px;
     position: absolute;
-    margin: 0 auto;
     background-image: url("./image/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
-    
   }
 
   .contact_footer {
