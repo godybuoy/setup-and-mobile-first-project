@@ -204,11 +204,23 @@ section {
   border-radius: 8px;
   background: #ebebff;
 }
+
+.item > img {
+  width: 10px;
+}
+
+.contact img {
+  position: absolute;
+  height: 709.17px;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+}
+
 .work img:hover {
   transform: scale3d(0.9, 0.9, 1.1);
   transition: transform 0.9s;
   opacity: 3;
-  
 }
 
 .btn {
@@ -216,7 +228,7 @@ section {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   padding: 10px;
   background: #fff;
   border: 2px solid #87a0de;
@@ -225,6 +237,7 @@ section {
   transition-duration: 1s;
   transition-delay: 0.1s;
 }
+
 .btn:hover {
   background-color: blue;
   color: white;
@@ -254,7 +267,6 @@ section {
 .about_head p {
   font-weight: 400;
   font-size: 16px;
-  width: 327px;
   margin-bottom: 12px;
   line-height: 24px;
   color: #344563;
@@ -293,10 +305,6 @@ section {
   padding-bottom: 12px;
 }
 
-.item > img {
-  width: 10px;
-}
-
 .about_lang {
   display: flex;
   flex-direction: column;
@@ -332,13 +340,6 @@ hr {
   background: #6070ff;
   border-radius: 75px 0 0 0;
 }
-.contact img {
-  position:absolute;
-  height: 709.17px;
-  height: 100%;
-  right: 0;
-  bottom: 0;
-}
 
 .contact_footer p {
   width: 327px;
@@ -365,13 +366,11 @@ hr {
 form {
   display: flex;
   flex-direction: column;
-  width: 400px;
   row-gap: 20px;
   margin: 70px 0;
   font-family: 'Poppins', sans-serif;
   align-items: start;
-  Width:327px;
- 
+  width: 327px;
 }
 
 form input {
@@ -385,9 +384,9 @@ form textarea {
   width: 100%;
   outline: none;
   font-family: 'Poppins', sans-serif;
-  Height:170px;
-  Top:5140px;
-  Left:21px;
+  height: 170px;
+  top: 5140px;
+  left: 21px;
 }
 
 @media screen and (min-width: 768px) {
@@ -441,13 +440,12 @@ form textarea {
     animation-delay: 2s;
     animation-iteration-count: 3;
   }
-  .animated-title:hover {
 
-  }
   @keyframes fadeIn {
     from {
       opacity: 0;
     }
+
     to {
       opacity: 1;
     }
@@ -551,7 +549,7 @@ form textarea {
     width: 100%;
     font-family: 'Poppins', sans-serif;
   }
-  
+
   form textarea {
     height: 150px;
     width: 100%;
