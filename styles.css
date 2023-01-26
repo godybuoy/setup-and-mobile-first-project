@@ -375,7 +375,7 @@ form {
 
 form input {
   padding: 10px;
-  height: 42px;
+  height: 40px;
   width: 100%;
 }
 
@@ -385,8 +385,8 @@ form textarea {
   outline: none;
   font-family: 'Poppins', sans-serif;
   height: 170px;
-  left: 20px;
   top: 5140px;
+  left: 20px;
 }
 
 @media screen and (min-width: 768px) {
