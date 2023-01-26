@@ -353,7 +353,7 @@ hr {
   color: #ebebff;
 }
 
-.contact_footer h1 {
+.contact h1 {
   align-items: center;
   font-family: 'poppins', "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   font-style: normal;
@@ -525,7 +525,7 @@ form textarea {
     background-position: 100% 100%;
   }
 
-  .contact_footer h1 {
+  .contact h1 {
     margin-top: 100px;
   }
 
