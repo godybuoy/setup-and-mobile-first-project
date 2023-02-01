@@ -1,4 +1,4 @@
-const nav = document.getElementById('nav');
+const btn = document.getElementById('nav');
 const dh = document.getElementById('dh');
 const close = document.getElementById('close');
 const portfolio = document.getElementById('portfolio');
