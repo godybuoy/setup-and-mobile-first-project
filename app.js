@@ -1,5 +1,5 @@
-const nav = document.getElementById('nav');
 const dh = document.getElementById('dh');
+const hamb = document.getElementById('hamb');
 const close = document.getElementById('close');
 const portfolio = document.getElementById('portfolio');
 const about = document.getElementById('about');

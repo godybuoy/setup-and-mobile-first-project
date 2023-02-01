@@ -19,9 +19,11 @@ li {
   display: none;
   flex-direction: column;
 }
+
 .desktop-header a {
   color: white;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -418,11 +420,9 @@ form textarea {
   cursor: pointer;
   font-size: 30px;
   margin-top: 8px;
-  
 }
 
 @media screen and (min-width: 769px) {
-
   #close {
     display: none;
   }
@@ -434,6 +434,7 @@ form textarea {
   .body {
     height: 100vh;
   }
+
   .desktop-header a {
     color: black;
   }
