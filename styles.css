@@ -69,6 +69,20 @@ section {
   backdrop-filter: blur(8px);
 }
 
+.close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
 .navigation img {
   width: 16px;
   background: blue;
@@ -382,19 +396,6 @@ hr {
   color: #fff;
 }
 
-.close {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  position: absolute;
-  right: 24px;
-  top: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 30px;
-  margin-top: 8px;
-}
 form {
   display: flex;
   flex-direction: column;
@@ -421,7 +422,7 @@ form textarea {
   left: 21px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .contact img {
     display: none;
   }
