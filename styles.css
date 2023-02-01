@@ -408,7 +408,7 @@ form textarea {
   left: 21px;
 }
 
-.desktop-header .close {
+.close {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
