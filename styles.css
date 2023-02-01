@@ -382,6 +382,19 @@ hr {
   color: #fff;
 }
 
+.close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -406,20 +419,6 @@ form textarea {
   height: 170px;
   top: 5140px;
   left: 21px;
-}
-
-.close {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  position: absolute;
-  right: 24px;
-  top: 0;
-  color: white;
-  cursor: pointer;
-  font-size: 30px;
-  margin-top: 8px;
 }
 
 @media screen and (min-width: 769px) {
@@ -450,7 +449,7 @@ form textarea {
     padding: 10px 0 10px 10px;
     animation: fadeIn 3s ease-in;
     animation-delay: 2s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
   }
 
   .navigation .nav {
