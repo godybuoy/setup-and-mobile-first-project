@@ -423,10 +423,6 @@ form textarea {
 }
 
 @media screen and (min-width: 769px) {
-  #close {
-    display: none;
-  }
-
   .contact img {
     display: none;
   }
@@ -437,6 +433,10 @@ form textarea {
 
   .desktop-header a {
     color: black;
+  }
+  
+  #close {
+    display: none;
   }
 
   .desktop-header {
@@ -450,7 +450,7 @@ form textarea {
     padding: 10px 0 10px 10px;
     animation: fadeIn 3s ease-in;
     animation-delay: 2s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 3;
   }
 
   .navigation .nav {
@@ -481,7 +481,7 @@ form textarea {
     flex-grow: 0;
     animation: fadeIn 1s ease-in;
     animation-delay: 2s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 3;
   }
 
   @keyframes fadeIn {
