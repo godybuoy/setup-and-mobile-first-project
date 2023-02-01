@@ -13,10 +13,13 @@ a {
 li {
   list-style-type: none;
   display: flex;
+
 }
 
 .desktop-header {
   display: none;
+  flex-direction: column;
+
 }
 
 body {
@@ -48,6 +51,33 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#dh.open {
+  display: flex;
+  position: fixed;
+  padding: 50px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 100vh; 
+  background: #6070ffaf;
+  backdrop-filter: blur(8px);
+}
+
+#close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: 0;
+
 }
 
 .navigation img {
@@ -400,8 +430,10 @@ form textarea {
 
   .desktop-header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
+    text-decoration: none;
     gap: 32px;
     justify-content: space-between;
     padding: 10px 0 10px 10px;
