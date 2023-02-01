@@ -63,9 +63,17 @@ section {
   padding: 50px;
   width: 100%;
   left: 0;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  color: #fff;
   top: 0;
   height: 100vh;
-  background: #6070ffaf;
+  background: #3c4debad;
   backdrop-filter: blur(8px);
 }
 
