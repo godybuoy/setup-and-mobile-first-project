@@ -13,13 +13,11 @@ a {
 li {
   list-style-type: none;
   display: flex;
-
 }
 
 .desktop-header {
   display: none;
   flex-direction: column;
-
 }
 
 body {
@@ -60,9 +58,9 @@ section {
   position: fixed;
   padding: 50px;
   width: 100%;
-  left: 0px;
-  top: 0px;
-  height: 100vh; 
+  left: 0;
+  top: 0;
+  height: 100vh;
   background: #6070ffaf;
   backdrop-filter: blur(8px);
 }
@@ -77,7 +75,6 @@ section {
   height: 40px;
   right: 24px;
   top: 0;
-
 }
 
 .navigation img {
