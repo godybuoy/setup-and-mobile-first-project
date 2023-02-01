@@ -1,4 +1,4 @@
-const btn = document.getElementById('nav');
+const nav = document.getElementById('nav');
 const dh = document.getElementById('dh');
 const close = document.getElementById('close');
 const portfolio = document.getElementById('portfolio');
@@ -9,7 +9,7 @@ close.addEventListener('click', () => {
   dh.classList.toggle('open');
 });
 
-hamburger.addEventListener('click', () => {
+hamb.addEventListener('click', () => {
   dh.classList.toggle('open');
 });
 portfolio.addEventListener('click', () => {
