@@ -19,7 +19,9 @@ li {
   display: none;
   flex-direction: column;
 }
-
+.desktop-header a {
+  color: white;
+}
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -65,22 +67,10 @@ section {
   backdrop-filter: blur(8px);
 }
 
-#close {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: 0;
-}
-
 .navigation img {
   width: 16px;
   background: blue;
-  padding: 2px;
+  padding: 1.5px;
 }
 
 .logo {
@@ -416,13 +406,36 @@ form textarea {
   left: 21px;
 }
 
-@media screen and (min-width: 768px) {
+.desktop-header .close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
+  
+}
+
+@media screen and (min-width: 769px) {
+
+  #close {
+    display: none;
+  }
+
   .contact img {
     display: none;
   }
 
   .body {
     height: 100vh;
+  }
+  .desktop-header a {
+    color: black;
   }
 
   .desktop-header {
@@ -436,7 +449,7 @@ form textarea {
     padding: 10px 0 10px 10px;
     animation: fadeIn 3s ease-in;
     animation-delay: 2s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
   }
 
   .navigation .nav {
@@ -467,7 +480,7 @@ form textarea {
     flex-grow: 0;
     animation: fadeIn 1s ease-in;
     animation-delay: 2s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 1;
   }
 
   @keyframes fadeIn {
