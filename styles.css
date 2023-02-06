@@ -17,6 +17,11 @@ li {
 
 .desktop-header {
   display: none;
+  flex-direction: column;
+}
+
+.desktop-header a {
+  color: white;
 }
 
 body {
@@ -48,12 +53,48 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#dh.open {
+  display: flex;
+  position: fixed;
+  padding: 50px;
+  width: 100%;
+  left: 0;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: flex-start;
+  color: #fff;
+  top: 0;
+  height: 100vh;
+  background: #3c4debad;
+  backdrop-filter: blur(8px);
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
 }
 
 .navigation img {
   width: 16px;
   background: blue;
-  padding: 2px;
+  padding: 1.5px;
 }
 
 .logo {
@@ -398,10 +439,20 @@ form textarea {
     height: 100vh;
   }
 
+  .desktop-header a {
+    color: black;
+  }
+
+  #close {
+    display: none;
+  }
+
   .desktop-header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
+    text-decoration: none;
     gap: 32px;
     justify-content: space-between;
     padding: 10px 0 10px 10px;
