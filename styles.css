@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .popups {
   display: flex;
   flex-direction: column;
@@ -14,16 +15,18 @@
   position: fixed;
   width: 343px;
   height: fit-content;
-  left: calc(50% - 343px/2);
+  left: calc(50% - 343px / 2);
   top: 60px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   z-index: 10;
-} 
+}
+
 .popups-project-languages-ul .ruby-language {
   display: none;
 }
+
 .popups-project-languages-ul .js-language {
   width: 70px;
 }
@@ -34,7 +37,7 @@
 
 .popups-project-languages-ul .github-language {
   display: none;
- } 
+}
 
 .popups-project-buttons-div {
   border-top: 1px solid #ebecf0;
@@ -58,6 +61,11 @@
   gap: 8px;
 }
 
+li {
+  list-style-type: none;
+  display: flex;
+}
+
 .popups-languages-buttons-container li {
   font-weight: 500;
   font-size: 12px;
@@ -67,8 +75,8 @@
   padding: 4px 12px;
   border-radius: 8px;
   background: #ebebff;
-
 }
+
 .popup-subt {
   display: flex;
   flex-direction: row;
@@ -85,7 +93,7 @@
   flex-direction: row;
 }
 
- .popups-project-disapper-button {
+.popups-project-disapper-button {
   background: none;
   border: none;
   display: flex;
@@ -98,7 +106,7 @@
   cursor: pointer;
   position: absolute;
   margin-left: 70%;
- }
+}
 
 .popups-project-img {
   width: 100%;
@@ -163,7 +171,6 @@
   font-size: 12px;
   cursor: pointer;
   margin-left: 2.5vh;
-  
 }
 
 .popups-button-see:hover {
@@ -180,17 +187,12 @@
   margin-bottom: 10px;
   height: 4px;
   background-color: black;
-
 }
 
 a {
   text-decoration: none;
 }
 
-li {
-  list-style-type: none;
-  display: flex;
-}
 
 .desktop-header {
   display: none;
@@ -792,6 +794,7 @@ form textarea {
     padding: 10px;
     margin-bottom: 40px;
   }
+
   .popups {
     position: absolute;
     width: 1180px;
@@ -848,5 +851,4 @@ form textarea {
   .popups-project-languages {
     width: fit-content;
   }
-
 }
