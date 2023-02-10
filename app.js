@@ -74,9 +74,8 @@ for (let i = 0; i < projectLanguagesText.length; i += 2) {
 // ..............popups...................
 
 const popups = document.querySelector('.popups');
-const popupsProjectImage = document.querySelector('.popups-project-img');
 const popupProjectTitle = document.querySelector('.popup-project-title');
-
+const popupProjectDescription = document.querySelector('description');
 function popupsDisappearButton() {
   popups.style.display = 'none';
 }
@@ -86,6 +85,7 @@ const popupsRubyLanguageDiv = document.querySelector('.ruby-language');
 const popupsProjectDesktop = document.querySelector('.popups-project-p-desktop');
 const popupsProjectMobile = document.querySelector('.popups-project-p-mobile');
 const seeliveaTag = document.querySelector('.see-live-aTag');
+let popupsProjectImage = document.querySelector('#popups-project-img')
 
 function projectViewButton1() {
   popups.style.display = 'flex';
@@ -102,6 +102,7 @@ function projectViewButton2() {
   popups.style.display = 'flex';
   popupsProjectImage.src = storeData[1].imagesrc;
   popupProjectTitle.innerHTML = storeData[1].name;
+  popupProjectDescription.innerHTML = storeData[1].description;
   popupsBootstrapLanguageDiv.classList.add('bootstrap-language-disappear');
   popupsRubyLanguageDiv.classList.add('ruby-language-disappear');
 }
