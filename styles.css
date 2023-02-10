@@ -608,12 +608,7 @@ form textarea {
 }
 
 @media screen and (min-width: 768px) {
-  .popups {
-    position: absolute;
-    width: 1180px;
-    height: 1163px;
-    left: 142px;
-    top: 77px;
+
   }
   .contact img {
     display: none;
@@ -799,4 +794,10 @@ form textarea {
     padding: 10px;
     margin-bottom: 40px;
   }
-}
+  .popups {
+    position: absolute;
+    width: 1180px;
+    height: 1163px;
+    left: 142px;
+    top: 77px;
+  }
