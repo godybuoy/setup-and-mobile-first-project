@@ -799,3 +799,54 @@ form textarea {
     left: 142px;
     top: 77px;
   }
+
+  .popups-container {
+    display: flex;
+    width: -webkit-fill-available;
+    margin-left: 29px;
+  }
+
+  .popups-project-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popups-project-p-mobile {
+    width: 778px;
+  }
+
+  .popups-languages-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popups-project-languages-ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .popups-project-disapper-button {
+    margin-left: 90%;
+  }
+
+  .popup-project-title {
+    font-size: 40px;
+  }
+
+  .popups-project-languages-ul .ruby-language,
+  .popups-project-languages-ul .github-language,
+  .popups-project-languages-ul .bootstrap-language {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-lang {
+    display: flex;
+  }
+
+  .popups-project-languages {
+    width: fit-content;
+  }
+
+}
