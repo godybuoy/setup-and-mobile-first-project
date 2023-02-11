@@ -136,3 +136,14 @@ btnFour.addEventListener('click', () => {
   popupsBootstrapLanguageDiv.classList.remove('bootstrap-language-disappear');
   popupsRubyLanguageDiv.classList.remove('ruby-language-disappear');
 });
+// ..............validation
+
+const form = document.getElementById('form');
+form.addEventListener('submit', (e) => {
+  const validerror = document.getElementById('validerror');
+  const email = form.elements[1].value;
+  if (email.toLowerCase() !== email) {
+    validerror.style.display = 'block';
+    e.preventDefault();
+  }
+});
