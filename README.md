@@ -7,7 +7,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>portfolio-setup</b></h3>
+  <h3><b>Mobile-menu</b></h3>
 
 </div>
 
@@ -38,11 +38,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 finish mobile version <a name="about-project"></a>
+# 📖 mobile-menu <a name="about-project"></a>
 
 
 
-**mobile first** is an introductory project.
+**mobile menu** is an introductory project.
 
 ## 🛠 Built With <a name="built-with"></a>
 

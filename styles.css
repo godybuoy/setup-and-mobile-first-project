@@ -6,8 +6,59 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
+.popups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  position: fixed;
+  width: 343px;
+  height: fit-content;
+  left: calc(50% - 343px / 2);
+  top: 60px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  z-index: 10;
+}
+
+.popups-project-languages-ul .ruby-language {
+  display: none;
+}
+
+.popups-project-languages-ul .js-language {
+  width: 70px;
+}
+
+.popups-project-languages-ul .bootstrap-language {
+  display: none;
+}
+
+.popups-project-languages-ul .github-language {
+  display: none;
+}
+
+.popups-project-buttons-div {
+  border-top: 1px solid #ebecf0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+.popups-languages-buttons-container {
+  width: 34vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
 }
 
 li {
@@ -15,8 +66,140 @@ li {
   display: flex;
 }
 
+.popups-languages-buttons-container li {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  background: #ebebff;
+}
+
+.popup-subt {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-project-info .popup-subt-img {
+  height: 10px;
+  width: 10px;
+  align-self: center;
+}
+
+.popups-project-languages-ul #pop-li {
+  display: flex;
+  flex-direction: row;
+}
+
+.popups-project-disapper-button {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  color: #67798e;
+  font-size: large;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 70%;
+}
+
+.popups-project-img {
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+}
+
+.popups-project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.popups-project-p-desktop {
+  display: none;
+}
+
+.popups-project-p-mobile {
+  width: 100%;
+  height: fit-content;
+  font-size: 15px;
+  padding: 0 10px 0 10px;
+}
+
+.popups-project-languages-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  width: 100%;
+}
+
+.popups-project-languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 5px;
+  padding: 4px 12px;
+  width: 50px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1vh;
+  margin-left: 8px;
+}
+
+.popups-button-see {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 110px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #396df2;
+  color: #396df2;
+  background-color: white;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 2.5vh;
+}
+
+.popups-button-see:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.popups-endline-mobile {
+  display: flex;
+  align-self: center;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 4px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
 .desktop-header {
   display: none;
+  flex-direction: column;
+}
+
+.desktop-header a {
+  color: white;
 }
 
 body {
@@ -48,12 +231,48 @@ section {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#dh.open {
+  display: flex;
+  position: fixed;
+  padding: 50px;
+  width: 100%;
+  left: 0;
+  gap: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: flex-start;
+  color: #fff;
+  top: 0;
+  height: 100vh;
+  background: #3c4debad;
+  backdrop-filter: blur(8px);
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 8px;
 }
 
 .navigation img {
   width: 16px;
   background: blue;
-  padding: 2px;
+  padding: 1.5px;
 }
 
 .logo {
@@ -389,6 +608,14 @@ form textarea {
   left: 21px;
 }
 
+.error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #900;
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .contact img {
     display: none;
@@ -398,10 +625,20 @@ form textarea {
     height: 100vh;
   }
 
+  .desktop-header a {
+    color: black;
+  }
+
+  #close {
+    display: none;
+  }
+
   .desktop-header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
+    text-decoration: none;
     gap: 32px;
     justify-content: space-between;
     padding: 10px 0 10px 10px;
@@ -563,5 +800,70 @@ form textarea {
     font-weight: 500;
     padding: 10px;
     margin-bottom: 40px;
+  }
+
+  .popups {
+    position: absolute;
+    width: 1180px;
+    height: 1163px;
+    left: 142px;
+    top: 77px;
+  }
+
+  .popups-container {
+    display: flex;
+    width: -webkit-fill-available;
+    margin-left: 29px;
+  }
+
+  .popups-project-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popups-project-p-mobile {
+    width: 778px;
+  }
+
+  .popups-languages-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popups-project-languages-ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .popups-project-disapper-button {
+    margin-left: 90%;
+  }
+
+  .popup-project-title {
+    font-size: 40px;
+  }
+
+  .popups-project-languages-ul .ruby-language,
+  .popups-project-languages-ul .github-language,
+  .popups-project-languages-ul .bootstrap-language {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-lang {
+    display: flex;
+  }
+
+  .popups-project-languages {
+    width: fit-content;
+  }
+
+  .d-error {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #900;
+    display: none;
   }
 }
